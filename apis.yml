@@ -1,8 +1,28 @@
 aid: girlboss
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/girlboss.png
 name: Girlboss
-description: Girlboss is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Girlboss is a community and media brand for ambitious women, positioned as a
+  navigator for the future of work — created to spark the thrill of possibility
+  and to inspire and inform so members can find success on their own terms.
+  Founded by Sophia Amoruso (author of #GIRLBOSS and founder of Nasty Gal),
+  Girlboss grew from editorial content, newsletters, and the Girlboss Rally
+  events into a community brand. Today girlboss.com runs as a Shopify-hosted
+  storefront and brand site. Girlboss was surfaced as a portfolio company of
+  Lightspeed Venture Partners; it publishes no first-party developer API, so
+  this profile captures its public web, policy, and agent-facing (llms.txt /
+  well-known) surface rather than an API.
 url: https://raw.githubusercontent.com/api-evangelist/girlboss/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,42 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-hosting: shopify
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Media
+- Community
+- Ecommerce
+- Retail
+- Women
+- Careers
+- Shopify
 apis: []
+common:
+- type: DomainSecurity
+  url: security/girlboss-domain-security.yml
+- type: Website
+  url: https://girlboss.com
+- type: Login
+  url: https://girlboss.com/account
+- type: PrivacyPolicy
+  url: https://girlboss.com/policies/privacy-policy
+- type: TermsOfService
+  url: https://girlboss.com/policies/terms-of-service
+- type: LLMsTxt
+  url: llms/girlboss-llms.txt
+- type: WellKnown
+  url: well-known/girlboss-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

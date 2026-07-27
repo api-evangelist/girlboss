@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+host: https://girlboss.com
+note: >-
+  girlboss.com is hosted on Shopify. The /.well-known/ discovery documents
+  below are served by the Shopify platform for this store (issuer
+  shopify.com/authentication/60276834497 — Shopify customer-account OIDC),
+  not a Girlboss-designed API. Captured verbatim as what is actually
+  published at the girlboss.com host.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: girlboss-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: girlboss-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
