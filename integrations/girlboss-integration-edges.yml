@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/girlboss/integrations
+- https://n8n.io/integrations/girlboss/
+- https://composio.dev/toolkits/girlboss
+- https://monid.ai/tools/girlboss
+checked:
+- https://composio.dev/toolkits/girlboss
+- https://monid.ai/tools/girlboss
+- https://n8n.io/integrations/girlboss/
+- https://zapier.com/apps/girlboss/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
